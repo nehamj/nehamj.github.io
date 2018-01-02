@@ -1,0 +1,89 @@
+body{
+    background-color: purple;
+    font-family:Roboto;
+}
+
+h1{
+    font-size:50px;
+    text-align: center;
+}
+.box{
+    width:70%;
+    height:auto;
+    background-color: lightgray;
+    margin:2em auto;
+    padding:30px;
+    font-size:30px;
+}
+
+input[type=text]{
+    width:100%;
+    padding:10px 16px;
+    margin-bottom:1em 0;
+    box-sizing:border-box;
+    font-size:25px;
+
+
+}
+
+#radio{
+    font-size:25px;
+}
+
+button{
+   background-color:purple;
+   border:none;
+   color: white;
+   padding: 15px 32px;
+   margin-left:25px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
+}
+
+button:hover {
+    background-color: grey;
+    color: black;
+}
+
+#formDs{
+    font-size:25px;
+}
+
+@media (max-width:950px){
+    
+    h1{
+        font-size:36px;
+    }
+    .box{ 
+            font-size:20px;
+    }
+    input[type=text]{
+        width:90%;
+        padding:8px 14px;
+        margin-bottom:1em 0;
+        box-sizing:border-box;
+        font-size:18px;
+    
+    
+    }
+    #radio{
+        font-size:18px;
+    }
+
+button{
+   background-color:purple;
+   border:none;
+   color: white;
+   padding: 10px 27px;
+   margin:auto;
+   text-align: center;
+   text-decoration: none;
+   display:block;
+   font-size: 20px;
+}
+
+#formDs{
+    font-size:20px;
+}

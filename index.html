@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Neha">
+        <meta name="description" content="HTML from using vanila css.Task 1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <title>Form</title>
+    </head>
+    <body>
+        <div class="box">
+            <h1>FORM</h1><hr>
+            <form id="form">
+                <br><br>
+                Name:<br>
+                <input type="text" name="name" id="name" placeholder="Name">
+                <br><br>
+                Email Id:<br>
+                <input type="text" name="email" id="email" placeholder="Email-ID">
+                <br><br>
+                Phone Number:<br>
+                <input type="text" name="phn" id="phn" placeholder="Phone number">
+                <br><br>
+                College Name:<br>
+                <input type="text" name="college" id="college" placeholder="College name">
+                <br><br>
+                Branch:<br><div id="radio">
+                <label><input type="radio" name="branch" id="b1" value="Computer Science" >Computer Science</label>
+                <br>
+                <label><input type="radio" name="branch" id="b2" value="Electronics and Comm.">Electronics and Comm.</label>
+                <br>
+                <label><input type="radio" name="branch" id="b3" value="Electrical">Electrical</label>
+                <br>
+                <label><input type="radio" name="branch" id="b4" value="Mechanical">Mechanical</label>
+                <br>
+                <label><input type="radio" name="branch" id="b5" value="Civil">Civil</label>
+                </div>
+                <br><br><button type="submit" id="submit">Submit</button>
+            </form>
+        </div>
+        <div id="out"></div>
+        <script src='script.js'></script>
+    </body>
+</html>
